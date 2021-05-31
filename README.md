@@ -16,6 +16,7 @@ Nesse projeto a muitas modificaçoes da aula 27 do prof. Willys Campos.
 obs: o codigo html e css não esta mais limpo pois somente fiz modificaçoes em cima de um arquivo index da aula 25.
 
 ====================================
+
 ***** RODANDO NODE.js *****
 
 Copie o arquivo sRegister.js para sua pasta node.js 
@@ -32,6 +33,7 @@ pg
 
 
 ====================================
+
 ***** HTML *****
 
 Após estar rodando o sRegister.js

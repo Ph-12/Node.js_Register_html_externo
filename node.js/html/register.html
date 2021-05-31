@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Node.js</title>
+    <script src="assets/nodejs/register.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <article id="register_box">
+        <section id="out-api">
+            <div class="alinha">
+                <div class="card">
+                    <div class="card-body">
+                        CPF ou CNPJ 
+                        <input id="cpf" class="form-control" type="text"  value=""  placeholder="Apenas numeros" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" >
+                    </div>
+                    
+                    <div class="card-body">
+                        Nome e Sobrenome  
+                        <input id="nome" class="form-control" type="text" value="" placeholder="Digite seu Nome ">
+                    </div>
+                    
+                    <div class="card-body">
+                         Senha:
+                        <br>
+                        <input id="senha" class="form-control" type="password" value="" placeholder="Digite seu senha">
+                    </div>
+                    
+                    
+                    <div class="card-body">
+                      <!--  Digite seu tipo <input id="tipo" type="text" value="">  -->
+                        
+                        <label for="browser">Tipo de usuario:</label>
+                        <br>
+                        <input id="browser" class="form-control" list="browsers" name="browser" placeholder="Selecione">
+
+                        <datalist id="browsers">
+                            <option value="Descarte"> </option>
+                          <option value="Coletor"> </option>
+                          <option value="Empresa"> </option>
+                        </datalist>
+                    </div>
+                    
+                    
+                    <div class="card-body">
+                        Endereço 
+                        <br> 
+                        <input id="localizacao" class="form-control" type="text" value="" placeholder="Digite seu Endereço">
+                        
+                    </div>
+                    
+                    <div class="card-body">
+                        <!-- Digite seu status <input id="status" type="number" value=""> -->
+                                            
+                        <label for="casa">Casa:
+                        <input id="casa" class="form-check-input" name="status" type="radio" value="1">
+                        </label>
+                        <label for="predio">Prédio:
+                         <input id="predio" class="form-check-input" name="status" type="radio" value="2">
+                        </label>
+                        <label for="escritorio">Escritório:
+                         <input id="escritorio" class="form-check-input" name="status" type="radio" value="3">
+                        </label>
+                        
+                    </div>
+                    
+                    <div>
+                        <button type="button" class="btn btn-success register" onclick="return RegistraNome()">Register</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+</html>

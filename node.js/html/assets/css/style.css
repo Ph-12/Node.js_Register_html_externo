@@ -1,0 +1,65 @@
+body {
+    color: #000;
+}
+
+hr {
+    width: 300px;
+    margin: 20px auto
+}
+
+.alinha {
+    text-align: center;
+}
+
+.card {
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+/* campos de text*/
+#in-node {
+    width: 300px;
+    margin: auto;
+}
+
+#out-api {
+    width: 300px;
+    margin: auto;
+}
+
+/*index*/
+
+#box {
+    background: gray;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 200px;
+    padding-top: 60px;
+}
+
+/*Registro*/
+
+#register_box {
+    background-image: linear-gradient(to bottom right, green 60%, #00FF6A);
+    width: 500px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding-top: 55px;
+}
+
+.register {
+    background: #0B4700
+}
+
+.register:hover {
+    background: #006C19;
+    text-decoration: underline;
+}
+
+.form-check-input:checked {
+    background: #006C19;
+}

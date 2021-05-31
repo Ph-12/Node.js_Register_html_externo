@@ -2,6 +2,7 @@
  registro de dados usando javascript para node.js guardado em postgrel
 
 =================================================
+
 Este projeto foi desenvolivo pro sistema COLETA DE LIXO, da iniciativa CODERS4FUTURE.
 
 Nesse projeto a muitas modificaçoes da aula 27 do prof. Willys Campos.

@@ -9,7 +9,7 @@ usuario_tipo				varchar(9) not null,
 usuario_localizacao			varchar(60) not null,
 usuario_senha				varchar(15) not null,
 usuario_status				varchar(3) not null,
-usuario_data_criacao		timestamp
+usuario_data_criacao		timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 
@@ -20,7 +20,7 @@ empresa_id					int,
 usuario_id					int,
 material_id					int,
 coletas_destino				varchar(100),
-coletas_data				timestamp
+coletas_data				timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 create table coletalixo.empresa
@@ -36,7 +36,7 @@ empresa_responsavel			varchar(60) not null,
 empresa_endereco			varchar(60) not null,
 empresa_senha				varchar(15) not null,
 empresa_status				varchar(3) not null,
-empresa_regdate				timestamp
+empresa_regdate				timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 create table coletalixo.material
@@ -47,7 +47,7 @@ create table coletalixo.material
  material_quantidade		varchar(10) not null,
  material_localizacao		varchar(60) not null,
  material_status			varchar(8) not null,
- material_data_criacao		timestamp
+ material_data_criacao		timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 --Altera as tabelas e correlaciona as tabelas (Chave Estrangeira)

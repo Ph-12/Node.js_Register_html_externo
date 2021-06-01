@@ -1,9 +1,9 @@
 # Node.js_Register_html_externo
- registro de dados usando javascript para node.js guardado em postgrel
+ registro de dados usando javascript para node.js guardado em postgreSQL
 
 =================================================
 
-Este projeto foi desenvolivo pro sistema COLETA DE LIXO, da iniciativa CODERS4FUTURE.
+Este projeto foi desenvolvido para o sistema COLETA DE LIXO, da iniciativa CODERS4FUTURE.
 
 Nesse projeto a muitas modificaçoes da aula 27 do prof. Willys Campos.
 

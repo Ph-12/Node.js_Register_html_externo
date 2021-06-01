@@ -20,9 +20,9 @@ obs: o codigo html e css não esta mais limpo pois somente fiz modificaçoes em 
 ***** RODANDO NODE.js *****
 
 Copie o arquivo sRegister.js para sua pasta node.js 
-modifique os campos dentro do Pool na linha 16
+A conexao com o banco de dados postgreSQL esta vazio.
+modifique os campos dentro do Pool aparti da linha 16
 e ponha para rodar
-
 
 -Requisitos de bibliotecas
 
@@ -38,5 +38,13 @@ pg
 
 Após estar rodando o sRegister.js
 basta abrir register.html dentro da pasta html, com qualquer navegador.
+
+
+====================================
+
+***** BANCO DE DADOS *****
+
+Add o arquivo .SQL, na pasta SQLfile. Para a criação de tabelas no DB coletalixo.
+São apenas criados tabelas o banco "coletalixo". O mesmo ja deve existir para o script funcionar corretamente.
 
 obs: O banco de dados do coletalixo não permite dados vazies.

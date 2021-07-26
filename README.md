@@ -26,10 +26,10 @@ e ponha para rodar
 
 -Requisitos de bibliotecas
 
-express
-bodyparser(não testado sem a sua instalação. Aparentemente não e mas nescessario aparti do express 4.16)
-cors
-pg
+*express
+*bodyparser(não testado sem a sua instalação. Aparentemente não e mas nescessario aparti do express 4.16)
+*cors
+*pg
 
 
 ====================================
